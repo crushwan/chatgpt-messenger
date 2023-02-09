@@ -30,7 +30,7 @@ function SideBar() {
             <ModelSelection />
           </div>
 
-          <div className="flex flex-col space-y-2 my-2 h-[400px] overflow-hidden overflow-y-scroll">
+          <div className="flex flex-col space-y-2 my-2 h-[400px] scrollbar-hide overflow-hidden overflow-y-scroll">
             {loading && (
               <div className="hidden md:flex items-center mx-auto p-5 text-center">
                 <BarLoader color="#5f5ff5" width={200} />

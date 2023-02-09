@@ -25,7 +25,7 @@ function DarkModeButton() {
           className="flex items-center justify-start px-5 py-3 md:space-x-7 mb-2 
           rounded-lg hover:bg-gray-700/70 cursor-pointer transition-all duration-200 ease-out"
         >
-          <SunIcon className="h-8 w-8 cursor-pointer text-yellow-300" />
+          <SunIcon className="h-8 w-8 cursor-pointer text-[#5f5ff5]" />
           <p className="flex-1 hidden md:inline text-gray-300 text-base font-semibold">
             Light Mode
           </p>
@@ -36,7 +36,7 @@ function DarkModeButton() {
           className="flex items-center justify-start px-5 py-3 md:space-x-7 mb-2 
         rounded-lg hover:bg-gray-700/70 cursor-pointer transition-all duration-200 ease-out"
         >
-          <MoonIcon className="h-8 w-8 cursor-pointer text-yellow-600" />
+          <MoonIcon className="h-8 w-8 cursor-pointer text-[#5f5ff5]" />
           <p className="flex-1 hidden md:inline text-gray-300 text-base font-semibold">
             Dark Mode
           </p>
